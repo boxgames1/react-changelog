@@ -15,12 +15,12 @@ npm install --save react-changelog
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-changelog'
+import ReactChangelog from 'react-changelog'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <ReactChangelog endpoint="changelog.json" />
     )
   }
 }

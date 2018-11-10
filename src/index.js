@@ -1,22 +1,26 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
-import styles from './styles.css'
+import "./styles.css";
+import ChangelogContainer from "./containers/ChangelogContainer";
 
-export default class ExampleComponent extends Component {
+export default class ReactChangelog extends Component {
   static propTypes = {
-    text: PropTypes.string
-  }
+    endpoint: PropTypes.string
+  };
 
   render() {
-    const {
-      text
-    } = this.props
-
+    const { endpoint } = this.props;
     return (
-      <div className={styles.test}>
-        Example Component: {text}
+      <div className="react-changelog-container">
+        <ChangelogContainer endpoint={endpoint} />
       </div>
-    )
+    );
   }
 }
+
+// Adding needed function to String prototype
+String.prototype.replaceAll = function(search, replacement) {
+  var target = this;
+  return target.split(search).join(replacement);
+};

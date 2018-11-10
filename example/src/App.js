@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import ExampleComponent from 'react-changelog'
+import ReactChangelog from "react-changelog";
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <ReactChangelog endpoint="changelog.json" />
       </div>
-    )
+    );
   }
 }
