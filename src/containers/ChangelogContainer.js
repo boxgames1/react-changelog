@@ -24,7 +24,6 @@ export default class ChangelogContainer extends Component {
   componentWillMount() {
     const { endpoint } = this.props;
     // TODO: Add error handling and bad format
-    console.log(endpoint);
     fetch(endpoint)
       .then(response => response.json())
       .then(({ title, list }) => {
@@ -54,9 +53,9 @@ export default class ChangelogContainer extends Component {
   render() {
     return (
       <div className="ChangelogContainer">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="changelog-wrapper js-changelog">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="changelog-wrapper js-changelog">
               <h1 className="changelog-title">{this.state.title}</h1>
               <ChangelogFilter
                 versions={this.state.versions}

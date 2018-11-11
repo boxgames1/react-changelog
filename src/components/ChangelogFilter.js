@@ -16,7 +16,7 @@ const ChangelogFilter = ({ versions, onChange }) => (
       />
       <label
         className="changelog-checkbox-label"
-        for="changelog-filter-feature"
+        htmlFor="changelog-filter-feature"
       >
         features
       </label>
@@ -29,7 +29,7 @@ const ChangelogFilter = ({ versions, onChange }) => (
       />
       <label
         className="changelog-checkbox-label"
-        for="changelog-filter-improvement"
+        htmlFor="changelog-filter-improvement"
       >
         improvements
       </label>
@@ -42,7 +42,7 @@ const ChangelogFilter = ({ versions, onChange }) => (
       />
       <label
         className="changelog-checkbox-label"
-        for="changelog-filter-bug-fix"
+        htmlFor="changelog-filter-bug-fix"
       >
         fixes
       </label>

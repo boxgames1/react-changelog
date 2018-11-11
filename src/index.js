@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import "./styles.css";
+import "./css/base.css";
+import "./css/styles.css";
+import "./css/lib/fontawesome.css";
+
 import ChangelogContainer from "./containers/ChangelogContainer";
 
 export default class ReactChangelog extends Component {

@@ -5,9 +5,9 @@ import ScrollToVersionItem from "./ScrollToVersionItem.js";
 
 const ScrollToVersion = ({ versions }) => (
   <div>
-    <div class="changelog-scroll-to">
-      scroll to <i class="fa fa-angle-down" />
-      <ul class="changelog-scroll-to-list">
+    <div className="changelog-scroll-to">
+      scroll to <i className="fa fa-angle-down" />
+      <ul className="changelog-scroll-to-list">
         {versions &&
           versions.length > 0 &&
           versions.map(({ version, slug }) => (

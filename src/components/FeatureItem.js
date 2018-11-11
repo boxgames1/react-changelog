@@ -17,11 +17,11 @@ const FeatureItem = ({ type, description }) => {
 
   return (
     <p
-      class={`changelog-update-description changelog-${itemClass} js-changelog-update-description`}
+      className={`changelog-update-description changelog-${itemClass} js-changelog-update-description`}
       data-instafilta-category={itemClass}
       data-instafilta-hide="false"
     >
-      <span class="changelog-type">{itemClass}</span>
+      <span className="changelog-type">{itemClass}</span>
       {description}
     </p>
   );
