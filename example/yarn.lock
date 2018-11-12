@@ -5444,9 +5444,9 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-changelog@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-changelog/-/react-changelog-1.0.0.tgz#bcde6b49c0a372df03930148e19792dcb729f63c"
+react-changelog@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-changelog/-/react-changelog-1.1.0.tgz#8d9d02fb8ca38ed2368db74233654531f6e59233"
 
 react-dev-utils@^5.0.2:
   version "5.0.3"
