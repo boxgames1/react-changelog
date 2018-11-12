@@ -6,7 +6,7 @@
 
 ### Demo
 
-[EXAMPLE](https://boxgames1.github.io/react-changelog/)
+[EXAMPLE](https://boxgames1.github.io/react-changelog/){:target="\_blank"}
 
 ## Install
 
